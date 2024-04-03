@@ -1,0 +1,44 @@
+/* Write your code here. */
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  text-align: center;
+  font-size: 34px;
+}
+
+.team-logos {
+  width: 135px;
+  height: 135px;
+}
+
+@media all and (min-width: 767px) {
+  .heading {
+    font-size: 66px;
+  }
+  .team-logos {
+    width: 330px;
+    height: 330px;
+  }
+}
